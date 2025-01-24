@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-24T12:13:44 IST" name="Default suite" finished-at="2025-01-24T12:15:18 IST" duration-ms="94425">
+    <groups>
+    </groups>
+    <test started-at="2025-01-24T12:13:44 IST" name="Default test" finished-at="2025-01-24T12:15:18 IST" duration-ms="94425">
+      <class name="Automation.Testingg.annotationqc">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Automation.Testingg.annotationqc@31fa1761]" started-at="2025-01-24T12:13:44 IST" name="setup" finished-at="2025-01-24T12:13:45 IST" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:1, instance:Automation.Testingg.annotationqc@31fa1761]" started-at="2025-01-24T12:13:45 IST" name="login" finished-at="2025-01-24T12:14:04 IST" duration-ms="18815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="table()[pri:2, instance:Automation.Testingg.annotationqc@31fa1761]" started-at="2025-01-24T12:14:04 IST" name="table" finished-at="2025-01-24T12:14:20 IST" duration-ms="16791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- table -->
+        <test-method signature="directDrawPage()[pri:3, instance:Automation.Testingg.annotationqc@31fa1761]" started-at="2025-01-24T12:14:20 IST" name="directDrawPage" finished-at="2025-01-24T12:14:35 IST" duration-ms="14940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- directDrawPage -->
+        <test-method signature="gapFinding()[pri:4, instance:Automation.Testingg.annotationqc@31fa1761]" started-at="2025-01-24T12:14:35 IST" name="gapFinding" finished-at="2025-01-24T12:15:18 IST" duration-ms="42679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gapFinding -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Automation.Testingg.annotationqc@31fa1761]" started-at="2025-01-24T12:15:18 IST" name="tearDown" finished-at="2025-01-24T12:15:18 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Automation.Testingg.annotationqc -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
