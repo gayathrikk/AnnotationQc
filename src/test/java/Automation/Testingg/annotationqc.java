@@ -52,7 +52,7 @@ public class annotationqc {
 	            }
 
 	            WebElement emailInput = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@type='email']")));
-	            emailInput.sendKeys("softwaretestingteam9@gmail.com");
+	            emailInput.sendKeys("teamsoftware457@gmail.com");
 	            System.out.println("Mail ID is entered");
 
 	            WebElement nextButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text()='Next']")));
