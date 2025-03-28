@@ -34,10 +34,6 @@ public class annotationqc {
 
 	        WebDriverWait wait = new WebDriverWait(driver, 50);
 	        try {
-	            WebElement viewerSectionLink = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//img[@src='/viewer/assets/images/colorsvg/gallery.svg']")));
-	            viewerSectionLink.click();
-	            System.out.println("The Viewer Icon is clicked");
-
 	            String parentWindow = driver.getWindowHandle();
 	            WebElement loginButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()=' Log In ']")));
 	            loginButton.click();
